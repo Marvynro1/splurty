@@ -48,11 +48,13 @@ hr {
 }
 
 h1 {
-	font-family: "armwrestlerbold", Helvetica, sans-serif;
+	font-family: "armwrestlerbold", Helvetica Neue, sans-serif;
+	font-weight:bold;
+	font-size:48px;
 }
 
 h2 {
-	font-family: "armwrestlerbold", Helvetica, sans-serif;
+	font-family: "armwrestlerbold", Helvetica Neue, sans-serif;
 }
 
 .next-quote {
@@ -70,4 +72,27 @@ h2 {
 
 .logo:hover {
 	text-decoration:none;
+}
+
+.about {
+	font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+}
+
+@media (max-width: 750px) {
+	.footer-blurb {
+		text-align: left;
+	}
+}
+
+.modal {
+	font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+}
+
+h2 span {
+	color: #8C8C8C;
+	font-family: "armwrestlerbold", Helvetica Neue, sans-serif;
+}
+
+::selection {
+	background-color: #f84342;
 }
